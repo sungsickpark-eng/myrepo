@@ -1,0 +1,9 @@
+name: Schedule
+os:
+    schedule:
+    - cron: '*/3  * * * *' # every day at midnight
+jobs:
+    run:
+        runs-on: ubuntu-latest
+        steps:
+            - run: date"
