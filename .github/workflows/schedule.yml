@@ -1,5 +1,5 @@
 name: Schedule
-os:
+on:
     schedule:
     - cron: '*/3  * * * *' # every day at midnight
 jobs:
